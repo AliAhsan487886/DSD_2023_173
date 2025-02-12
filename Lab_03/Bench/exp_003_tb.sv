@@ -1,4 +1,4 @@
-module exp_003_tb(); #Full_adder
+module exp_003_tb(); //Full_adder
 
     logic a1;
     logic b1;

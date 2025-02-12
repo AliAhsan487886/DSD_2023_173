@@ -1,4 +1,4 @@
-module exp_003( #Full_adder
+module exp_003( //Full_adder
     input logic a,
     input logic b,
     input logic c,
