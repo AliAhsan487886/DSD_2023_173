@@ -1,9 +1,9 @@
 
-module Exp_001(output x,y,
+module exp_001(output x,y,
                input a,b,c
                );
-    assign OR_GATE  = a | b;
-    assign x = (~c) ^ OR_GATE;
-    assign XOR_GATE = (~(a & b)) ^ (OR_GATE);
-    assign y = OR_GATE & XOR_GATE;
+    assign or_out = a | b;
+    assign x = (~c) ^ or_out;
+    assign xor_out = (~(a & b)) ^ (or_out);
+    assign y = or_out & xor_out;
 endmodule
