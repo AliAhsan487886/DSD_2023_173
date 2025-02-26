@@ -2,8 +2,6 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
-// 
-// Create Date: 02/18/2025 04:05:35 PM
 // Design Name: Ali Ahsan Project 4
 // Module Name: exp_dsd_004
 // Project Name: 
@@ -27,7 +25,7 @@ module exp_dsd_004(
     output logic green,   
     output logic blue     
 );
-    logic a1, ao, b1, bo;
+    logic a1, a0, b1, b0;
     assign a1 = a[1];
     assign a0 = a[0];
     assign b1 = b[1];
